@@ -1,6 +1,6 @@
 document.getElementById("btnGIS").addEventListener("click", () => {
 
-  let sitepage = document.getElementById("search-text").value;
+  let sitepage = document.getElementById("searchatext").value;
   
-  let search-text = `entitygreyfox.github.io/${sitepage}`;  
+  let searchatext = `entitygreyfox.github.io/${sitepage}`;  
 });
