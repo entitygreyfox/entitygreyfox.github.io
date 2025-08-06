@@ -3,5 +3,5 @@ document.getElementById("btnGIS").addEventListener("click", () => {
   
   let searchatext = `entitygreyfox.github.io/${sitepage}`;  
 
-  console.log(searchatext);
+  window.location.href = searchatext;
 });
