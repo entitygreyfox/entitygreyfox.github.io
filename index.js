@@ -3,7 +3,7 @@ document.getElementById("btnGIS").addEventListener("click", () => {
   
   let sitepage = document.getElementById("searchatext").value;
   
-  let searchatext = `entitygreyfox.github.io/${sitepage}/`;  
+  let searchatext = `https://entitygreyfox.github.io/${sitepage}/`;  
 
   window.location.href = searchatext;
 });
