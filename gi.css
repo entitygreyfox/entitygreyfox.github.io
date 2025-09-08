@@ -1,9 +1,4 @@
 body {
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 390px;
-  box-sizing: border-box;
-  display: table-cell;
-  vertical-align: middle;
+  display:flex; flex-direction:column; justify-content:center;
+  min-height:100vh;
 }
