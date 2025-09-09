@@ -3,7 +3,7 @@ document.getElementById("btnGIS").addEventListener("click", () => {
   
   let sitepage = document.getElementById("searchatext").value;
   
-  let searchatext = `https://www.google.com/search?q=${sitepage}/`;  
+  let searchatext = `https://www.google.com/search?q=${sitepage}`;  
 
   window.location.href = searchatext;
 });
